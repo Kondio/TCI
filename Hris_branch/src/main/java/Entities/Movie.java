@@ -1,0 +1,56 @@
+package Entities;
+
+public class Movie  implements Item {
+
+    private String Artist;
+    private Integer Year;
+    private String Format;
+    private String Genre;
+    private String Name;
+
+
+    @Override
+    public String getGenre() {
+        return Genre;
+    }
+
+    @Override
+    public String getFormat() {
+        return Format;
+    }
+
+    @Override
+    public String getName() {
+        return Name;
+    }
+
+    @Override
+    public Integer getYear() {
+        return Year;
+    }
+
+    @Override
+    public String getArtist() {
+        return Artist;
+    }
+
+    @Override
+    public void setGenre(String genre) {
+        this.Genre = genre;
+    }
+
+    @Override
+    public void setFormat(String format) {
+        this.Format = format;
+    }
+
+    @Override
+    public void setName(String name) {
+        this.Name = name;
+    }
+
+    @Override
+    public void setYear(Integer year) {
+        this.Year = year;
+    }
+}
