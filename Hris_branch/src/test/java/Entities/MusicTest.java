@@ -1,3 +1,5 @@
+package Entities;
+
 import Entities.Music;
 import org.junit.Assert;
 import org.junit.Test;
